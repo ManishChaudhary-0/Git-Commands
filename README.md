@@ -133,7 +133,7 @@ git push <repo-url>
 Create a pull request
 Go to your forked repository. You may see a your recently pushed branches and so choose “compare and pull request”
 
-##### Steps for an Author
+#### Steps for an Author
 
 **Step 1:**
 
