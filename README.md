@@ -69,22 +69,27 @@
 
 ##### Steps for contributors
 
-Step 0: Before you make any changes make sure that you make changes into the latest version of your repository
+**Step 0:**
+Before you make any changes make sure that you make changes into the latest version of your repository
 
 ```
 git pull <author-repo-url> main
 ```
 
-Step 1: Fork the author’s repo to your own account.
+**Step 1:**
+
+Fork the author’s repo to your own account.
 This would create a repository in contributor’s GitHub account.
 
-Step 2: Clone the contributor’s GitHub repository to your local machine.
+**Step 2:**
+Clone the contributor’s GitHub repository to your local machine.
 
 ```
 git clone <repo-url>
 ```
 
-Step 3: Create a new branch (Do not make changes on main branch)
+**Step 3:**
+Create a new branch (Do not make changes on main branch)
 
 ```
 git branch (To list all the branches)
@@ -92,32 +97,38 @@ git checkout -b <branch-name>
 (To create a branch name and then switch to the branch name, e.g., git checkout checkout_error1)
 ```
 
-Step 4: Make necessary changes to the repository on local computer.
+**Step 4:**
+Make necessary changes to the repository on local computer.
 
-Step 5: Add files
+**Step 5:**
+Add files
 
 ```
 git add .
 ```
 
-Step 6: commit changes
+**Step 6:**
+commit changes
 
 ```
 git commit –m <commit message>
 ```
 
-Step 7: Push changes to the forked repository
+**Step 7:**
+Push changes to the forked repository
 
 ```
 git push <repo-url>
 ```
 
-Step 8: Create a pull request
+**Step 8:**
+Create a pull request
 Go to your forked repository. You may see a your recently pushed branches and so choose “compare and pull request”
 
 ##### Steps for an Author
 
-Step 1: From your project repository, checkout a new branch and test the changes
+**Step 1:**
+From your project repository, checkout a new branch and test the changes
 
 ```
 git checkout –b <contributorName-branchName> main
@@ -126,7 +137,8 @@ git pull <contributor-repo-url> <branchName>
 (e.g., git pull https://github.com/ppankesh/test-repository.git test1)
 ```
 
-Step 2: Merge the changes and update on Github
+**Step 2:**
+Merge the changes and update on Github
 
 ```
 git checkout main
